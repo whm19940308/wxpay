@@ -3,7 +3,7 @@ whmblog自定义php微信公众号支付工具类，简单几行代码即可实�
 
 代码使用示例，请参照index.php
 
-···php
+```php
 <?php
 
 include './Wxpay.class.php';
@@ -20,4 +20,4 @@ $pay_obj = $this->createJsBizPackage($openid, $totalFee, $outTradeNo, $orderName
 
 echo '<pre>';
 var_dump($pay_obj);
-···
+```
